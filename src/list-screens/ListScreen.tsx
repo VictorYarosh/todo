@@ -6,7 +6,7 @@
 //   handleTaskCompleteChange,
 //   handleTaskDeleteClick
 // } from './useListScreen';
-
+import { ChangeEvent, KeyboardEvent, useState } from 'react';
 import Checkbox from '../components/Checkbox';
 import Spacer from '../components/Spacer';
 import useTaskStore from '../hooks/use-task-store';
@@ -18,7 +18,7 @@ import { List } from '../list-screens/styled';
 import { ListItem } from '../list-screens/styled';
 import { Input } from '../list-screens/styled';
 import { DeleteButton } from '../list-screens/styled';
-import { ChangeEvent, KeyboardEvent, useState } from 'react';
+
 import { Task } from '../types';
 
 

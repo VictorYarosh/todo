@@ -40,6 +40,8 @@ const useTaskStore = () => {
     setFocusedTaskId(shuffle(tasks.filter((task) => !task.isComplete))[0]?.id);
   };
 
+
+
   const api = {
     addTask,
     focusedTask,
